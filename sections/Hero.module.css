@@ -1,0 +1,19 @@
+
+/* Hero.module.css */
+
+/* ... (other styles) */
+
+.rotating-image {
+  animation: rotateGlow 5s linear infinite;
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.7));
+}
+
+@keyframes rotateGlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
